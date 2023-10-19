@@ -1,15 +1,32 @@
 body {
   font-family: Arial;
 }
+
+.cart__title {
+  text-align: center;
+  padding: 12px 0;
+  font-size: 22px;
+}
+
 .cart__products {
   display: flex;
   justify-content: center;
   align-items: center;
+  gap: 20px;
 }
 
 .cart__product {
   position: relative;
 }
+
+.cart__product-remove {
+  cursor: pointer;
+  display: inline;
+  position: absolute;
+  left: -6px;
+  top: 3px;
+}
+
 .cart__product-count {
   position: absolute;
   top: 0;
@@ -26,11 +43,18 @@ body {
   height: 100px;
   object-fit: contain;
 }
+
+.products {
+  display: flex;
+  justify-content: space-around;
+}
+
 .product {
   display: flex;
   flex-wrap: wrap;
   align-items: flex-start;
 }
+
 .product__title {
   width: 100%;
   text-transform: uppercase;
