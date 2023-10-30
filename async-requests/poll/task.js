@@ -25,7 +25,7 @@ fetch('https://students.netoservices.ru/nestjs-backend/poll')
 
 pollAnswersElement.addEventListener('click', event => {
     if (event.target.classList.contains('poll__answer')) {
-        confirm('Спасибо, ваш голос засчитан!')
+        alert('Спасибо, ваш голос засчитан!')
     }
 });
 
