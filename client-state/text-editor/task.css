@@ -8,3 +8,18 @@ textarea {
   border: 1px solid #e2e2e2;
   box-sizing: border-box;
 }
+
+.card {
+  position: relative;
+}
+
+#clearButton {
+  position: absolute;
+  bottom: -16px;
+  right: 28px;
+  padding: 8px 12px;
+  background-color: #f00;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
